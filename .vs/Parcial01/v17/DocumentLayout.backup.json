@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|solutionrelative:entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\entity\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|solutionrelative:entity\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDDFBDC-5B16-46A1-BA90-06861050AC83}|BLL\\BLL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDDFBDC-5B16-46A1-BA90-06861050AC83}|BLL\\BLL.csproj|solutionrelative:bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\dal\\partidodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|solutionrelative:dal\\partidodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|solutionrelative:dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs",
+              "RelativeToolTip": "UI\\Form1.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:12:33.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:12:31.919Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Partido.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Partido.cs",
+              "RelativeDocumentMoniker": "Entity\\Partido.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Partido.cs",
+              "RelativeToolTip": "Entity\\Partido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:12:23.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deporte.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Deporte.cs",
+              "RelativeDocumentMoniker": "Entity\\Deporte.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Deporte.cs",
+              "RelativeToolTip": "Entity\\Deporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:12:20.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartidoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\BLL\\PartidoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\PartidoBLL.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\BLL\\PartidoBLL.cs",
+              "RelativeToolTip": "BLL\\PartidoBLL.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwFgAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:09:25.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PartidoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\PartidoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\PartidoDAL.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\PartidoDAL.cs",
+              "RelativeToolTip": "DAL\\PartidoDAL.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwLAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:07:50.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "DAL\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\ConexionDB.cs",
+              "RelativeToolTip": "DAL\\ConexionDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:07:41.806Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
