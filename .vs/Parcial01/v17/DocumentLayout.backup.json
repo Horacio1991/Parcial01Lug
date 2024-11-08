@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\",
+  "WorkspaceRootPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B296C98F-FCE7-4233-A7CA-176DE6147EBD}|Mapper\\Mapper.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\mapper\\partidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B296C98F-FCE7-4233-A7CA-176DE6147EBD}|Mapper\\Mapper.csproj|solutionrelative:mapper\\partidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B296C98F-FCE7-4233-A7CA-176DE6147EBD}|Mapper\\Mapper.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\mapper\\deportemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B296C98F-FCE7-4233-A7CA-176DE6147EBD}|Mapper\\Mapper.csproj|solutionrelative:mapper\\deportemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|solutionrelative:entity\\partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\entity\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\entity\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE40309E-F2F9-4173-8E69-09AC78D593F7}|Entity\\Entity.csproj|solutionrelative:entity\\deporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFDDFBDC-5B16-46A1-BA90-06861050AC83}|BLL\\BLL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFDDFBDC-5B16-46A1-BA90-06861050AC83}|BLL\\BLL.csproj|solutionrelative:bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\dal\\partidodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\dal\\partidodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|solutionrelative:dal\\partidodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\parcial01\\dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31A3C6F7-5535-43A1-81A3-F4887718A9D0}|DAL\\DAL.csproj|solutionrelative:dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDDFBDC-5B16-46A1-BA90-06861050AC83}|BLL\\BLL.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDDFBDC-5B16-46A1-BA90-06861050AC83}|BLL\\BLL.csproj|solutionrelative:bll\\partidobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|c:\\users\\hory_\\onedrive\\escritorio\\practica lug\\parcial01lug\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3F97C3D-E913-4601-9E06-515D6707EC65}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PartidoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\DAL\\PartidoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\PartidoDAL.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\DAL\\PartidoDAL.cs",
+              "RelativeToolTip": "DAL\\PartidoDAL.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAwOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:07:50.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Deporte.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Deporte.cs",
+              "RelativeDocumentMoniker": "Entity\\Deporte.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Deporte.cs",
+              "RelativeToolTip": "Entity\\Deporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:12:20.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Partido.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Partido.cs",
+              "RelativeDocumentMoniker": "Entity\\Partido.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Partido.cs",
+              "RelativeToolTip": "Entity\\Partido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:12:23.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeporteMapper.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Mapper\\DeporteMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\DeporteMapper.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Mapper\\DeporteMapper.cs",
+              "RelativeToolTip": "Mapper\\DeporteMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T22:52:35.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PartidoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Mapper\\PartidoMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\PartidoMapper.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Mapper\\PartidoMapper.cs",
+              "RelativeToolTip": "Mapper\\PartidoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T22:51:49.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\Form1.cs",
               "RelativeToolTip": "UI\\Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAYwNUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T15:12:33.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "ConexionDB.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\DAL\\ConexionDB.cs",
+              "RelativeDocumentMoniker": "DAL\\ConexionDB.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\DAL\\ConexionDB.cs",
+              "RelativeToolTip": "DAL\\ConexionDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:07:41.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PartidoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\BLL\\PartidoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\PartidoBLL.cs",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\BLL\\PartidoBLL.cs",
+              "RelativeToolTip": "BLL\\PartidoBLL.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwKoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:09:25.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T15:12:31.919Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Partido.cs",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Partido.cs",
-              "RelativeDocumentMoniker": "Entity\\Partido.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Partido.cs",
-              "RelativeToolTip": "Entity\\Partido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:12:23.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Deporte.cs",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Deporte.cs",
-              "RelativeDocumentMoniker": "Entity\\Deporte.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Deporte.cs",
-              "RelativeToolTip": "Entity\\Deporte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:12:20.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PartidoBLL.cs",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\BLL\\PartidoBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\PartidoBLL.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\BLL\\PartidoBLL.cs",
-              "RelativeToolTip": "BLL\\PartidoBLL.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAcwFgAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:09:25.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PartidoDAL.cs",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\PartidoDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\PartidoDAL.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\PartidoDAL.cs",
-              "RelativeToolTip": "DAL\\PartidoDAL.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwLAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:07:50.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "DAL\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\DAL\\ConexionDB.cs",
-              "RelativeToolTip": "DAL\\ConexionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T15:07:41.806Z"
             }
           ]
         }

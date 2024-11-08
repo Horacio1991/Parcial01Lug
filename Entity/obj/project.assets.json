@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\hory_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hory_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -534,7 +534,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\bin\Debug\net8.0\Mapper.deps.json
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\bin\Debug\net8.0\Mapper.dll
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\bin\Debug\net8.0\Mapper.pdb
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\bin\Debug\net8.0\Entity.dll
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\bin\Debug\net8.0\Entity.pdb
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.csproj.AssemblyReference.cache
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.AssemblyInfoInputs.cache
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.AssemblyInfo.cs
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.csproj.CoreCompileInputs.cache
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.sourcelink.json
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.csproj.Up2Date
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.dll
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\refint\Mapper.dll
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\Mapper.pdb
+C:\Users\hory_\OneDrive\Escritorio\Practica LUG\Parcial01Lug\Mapper\obj\Debug\net8.0\ref\Mapper.dll

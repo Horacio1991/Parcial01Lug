@@ -1,5 +1,8 @@
-﻿using System.Data.SqlClient;
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 using Entity;
+using Mapper;
 
 namespace DAL
 {
@@ -12,7 +15,8 @@ namespace DAL
             _conexionDB = new ConexionDB();
         }
 
-        public void AgregarPartido(int idDeporte, string equipoLocal, string equipoVisitante, DateTime fechaPartido)
+        // Agregar un partido a la base de datos
+        public void AgregarPartido(Partido partido)
         {
             string query = "INSERT INTO Partido (ID_DEPORTE, EQUIPO_LOCAL, EQUIPO_VISITANTE, FECHA_PARTIDO) " +
                            "VALUES (@ID_DEPORTE, @EQUIPO_LOCAL, @EQUIPO_VISITANTE, @FECHA_PARTIDO)";
@@ -23,10 +27,10 @@ namespace DAL
                 {
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@ID_DEPORTE", idDeporte);
-                        cmd.Parameters.AddWithValue("@EQUIPO_LOCAL", equipoLocal);
-                        cmd.Parameters.AddWithValue("@EQUIPO_VISITANTE", equipoVisitante);
-                        cmd.Parameters.AddWithValue("@FECHA_PARTIDO", fechaPartido);
+                        cmd.Parameters.AddWithValue("@ID_DEPORTE", partido.Deporte.IdDeporte);
+                        cmd.Parameters.AddWithValue("@EQUIPO_LOCAL", partido.EquipoLocal);
+                        cmd.Parameters.AddWithValue("@EQUIPO_VISITANTE", partido.EquipoVisitante);
+                        cmd.Parameters.AddWithValue("@FECHA_PARTIDO", partido.FechaPartido);
 
                         conn.Open();
                         cmd.ExecuteNonQuery();
@@ -39,10 +43,11 @@ namespace DAL
             }
         }
 
+        // Obtener todos los partidos
         public List<Partido> ObtenerTodosLosPartidos()
         {
-            List<Partido> listaPartidos = new List<Partido>();
-            string query = "SELECT * FROM Partido"; 
+            List<Partido> partidos = new List<Partido>();
+            string query = "SELECT * FROM Partido";
 
             try
             {
@@ -55,18 +60,41 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                Partido partido = new Partido
-                                {
-                                    IdPartido = (int)reader["ID_PARTIDO"],
-                                    IdDeporte = (int)reader["ID_DEPORTE"],
-                                    EquipoLocal = reader["EQUIPO_LOCAL"].ToString(),
-                                    EquipoVisitante = reader["EQUIPO_VISITANTE"].ToString(),
-                                    FechaPartido = (DateTime)reader["FECHA_PARTIDO"],
-                                    FechaRegistro = (DateTime)reader["FECHA_REGISTRO"], 
-                                    MarcadorLocal = (int)reader["MARCADOR_LOCAL"],
-                                    MarcadorVisitante = (int)reader["MARCADOR_VISITANTE"]
-                                };
-                                listaPartidos.Add(partido);
+                                int idDeporte = (int)reader["ID_DEPORTE"];
+                                Deporte deporte = ObtenerDeporte(idDeporte);
+                                Partido partido = PartidoMapper.Map(reader, deporte);
+                                partidos.Add(partido);
+                            }
+                        }
+                    }
+                }
+                return partidos;
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error al obtener los partidos: " + ex.Message);
+            }
+        }
+
+        // Obtener un deporte por ID
+        private Deporte ObtenerDeporte(int idDeporte)
+        {
+            string query = "SELECT * FROM Deporte WHERE ID_DEPORTE = @ID_DEPORTE";
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(_conexionDB.ObtenerCadenaConexion()))
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@ID_DEPORTE", idDeporte);
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                return DeporteMapper.Map(reader);
                             }
                         }
                     }
@@ -74,12 +102,13 @@ namespace DAL
             }
             catch (SqlException ex)
             {
-                throw new Exception("Error al obtener los partidos: " + ex.Message);
+                throw new Exception("Error al obtener el deporte: " + ex.Message);
             }
 
-            return listaPartidos;
+            return null;
         }
 
+        // Eliminar un partido por ID
         public void EliminarPartido(int idPartido)
         {
             string query = "DELETE FROM Partido WHERE ID_PARTIDO = @ID_PARTIDO";
@@ -103,6 +132,7 @@ namespace DAL
             }
         }
 
+        // Actualizar marcador de un partido
         public void ActualizarMarcador(int idPartido, int marcadorLocal, int marcadorVisitante)
         {
             string query = "UPDATE Partido SET MARCADOR_LOCAL = @MARCADOR_LOCAL, MARCADOR_VISITANTE = @MARCADOR_VISITANTE, " +
@@ -134,9 +164,9 @@ namespace DAL
             }
         }
 
+        // Obtener un partido por ID
         public Partido ObtenerPartidoPorId(int idPartido)
         {
-            Partido partido = null;
             string query = "SELECT * FROM Partido WHERE ID_PARTIDO = @ID_PARTIDO";
 
             try
@@ -152,16 +182,9 @@ namespace DAL
                         {
                             if (reader.Read())
                             {
-                                partido = new Partido
-                                {
-                                    IdPartido = (int)reader["ID_PARTIDO"],
-                                    IdDeporte = (int)reader["ID_DEPORTE"],
-                                    EquipoLocal = reader["EQUIPO_LOCAL"].ToString(),
-                                    EquipoVisitante = reader["EQUIPO_VISITANTE"].ToString(),
-                                    FechaPartido = (DateTime)reader["FECHA_PARTIDO"],
-                                    MarcadorLocal = (int)reader["MARCADOR_LOCAL"],
-                                    MarcadorVisitante = (int)reader["MARCADOR_VISITANTE"]
-                                };
+                                int idDeporte = (int)reader["ID_DEPORTE"];
+                                Deporte deporte = ObtenerDeporte(idDeporte);
+                                return PartidoMapper.Map(reader, deporte);
                             }
                         }
                     }
@@ -172,9 +195,10 @@ namespace DAL
                 throw new Exception("Error al obtener el partido: " + ex.Message);
             }
 
-            return partido;
+            return null;
         }
 
+        // Obtener todos los deportes
         public List<Deporte> ObtenerDeportes()
         {
             List<Deporte> deportes = new List<Deporte>();
@@ -191,23 +215,17 @@ namespace DAL
                         {
                             while (reader.Read())
                             {
-                                Deporte deporte = new Deporte
-                                {
-                                    IdDeporte = (int)reader["ID_DEPORTE"],
-                                    Descripcion = reader["DESCRIPCION"].ToString()
-                                };
-                                deportes.Add(deporte);
+                                deportes.Add(DeporteMapper.Map(reader));
                             }
                         }
                     }
                 }
+                return deportes;
             }
             catch (SqlException ex)
             {
                 throw new Exception("Error al obtener los deportes: " + ex.Message);
             }
-
-            return deportes;
         }
     }
 }

@@ -50,6 +50,8 @@
             txtMarcadorLocal = new TextBox();
             txtMarcadorVisitante = new TextBox();
             btnModificarMarcador = new Button();
+            btnGuardarEnMemoria = new Button();
+            btnCargaMasiva = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvTodosLosPartidos).BeginInit();
             SuspendLayout();
             // 
@@ -134,9 +136,9 @@
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(120, 361);
+            btnGuardar.Location = new Point(34, 361);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(108, 39);
+            btnGuardar.Size = new Size(194, 39);
             btnGuardar.TabIndex = 9;
             btnGuardar.Text = "GUARDAR";
             btnGuardar.UseVisualStyleBackColor = true;
@@ -251,11 +253,33 @@
             btnModificarMarcador.UseVisualStyleBackColor = true;
             btnModificarMarcador.Click += btnModificarMarcador_Click;
             // 
+            // btnGuardarEnMemoria
+            // 
+            btnGuardarEnMemoria.Location = new Point(34, 406);
+            btnGuardarEnMemoria.Name = "btnGuardarEnMemoria";
+            btnGuardarEnMemoria.Size = new Size(194, 39);
+            btnGuardarEnMemoria.TabIndex = 22;
+            btnGuardarEnMemoria.Text = "GUARDAR EN MEMORIA";
+            btnGuardarEnMemoria.UseVisualStyleBackColor = true;
+            btnGuardarEnMemoria.Click += btnGuardarEnMemoria_Click;
+            // 
+            // btnCargaMasiva
+            // 
+            btnCargaMasiva.Location = new Point(34, 451);
+            btnCargaMasiva.Name = "btnCargaMasiva";
+            btnCargaMasiva.Size = new Size(194, 39);
+            btnCargaMasiva.TabIndex = 23;
+            btnCargaMasiva.Text = "CARGA MASIVA";
+            btnCargaMasiva.UseVisualStyleBackColor = true;
+            btnCargaMasiva.Click += btnCargaMasiva_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 521);
+            Controls.Add(btnCargaMasiva);
+            Controls.Add(btnGuardarEnMemoria);
             Controls.Add(btnModificarMarcador);
             Controls.Add(txtMarcadorVisitante);
             Controls.Add(txtMarcadorLocal);
@@ -309,5 +333,7 @@
         private TextBox txtMarcadorLocal;
         private TextBox txtMarcadorVisitante;
         private Button btnModificarMarcador;
+        private Button btnGuardarEnMemoria;
+        private Button btnCargaMasiva;
     }
 }

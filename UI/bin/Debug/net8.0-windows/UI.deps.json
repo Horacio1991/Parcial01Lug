@@ -115,6 +115,7 @@
       "DAL/1.0.0": {
         "dependencies": {
           "Entity": "1.0.0",
+          "Mapper": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.0",
           "System.Data.SqlClient": "4.8.6"
         },
@@ -131,6 +132,17 @@
         },
         "runtime": {
           "Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mapper/1.0.0": {
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "runtime": {
+          "Mapper.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -239,6 +251,11 @@
       "sha512": ""
     },
     "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mapper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

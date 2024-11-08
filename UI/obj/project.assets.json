@@ -229,6 +229,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Entity": "1.0.0",
+          "Mapper": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.0",
           "System.Data.SqlClient": "4.8.6"
         },
@@ -250,6 +251,19 @@
         },
         "runtime": {
           "bin/placeholder/Entity.dll": {}
+        }
+      },
+      "Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mapper.dll": {}
         }
       }
     }
@@ -687,6 +701,11 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "Mapper/1.0.0": {
+      "type": "project",
+      "path": "../Mapper/Mapper.csproj",
+      "msbuildProject": "../Mapper/Mapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -702,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\UI.csproj",
+      "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\hory_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\UI\\obj\\",
+      "outputPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hory_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -723,11 +742,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\BLL\\BLL.csproj"
+            "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Parcial01\\Entity\\Entity.csproj"
+            "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\hory_\\OneDrive\\Escritorio\\Practica LUG\\Parcial01Lug\\Entity\\Entity.csproj"
             }
           }
         }
@@ -771,7 +790,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
